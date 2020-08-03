@@ -5,9 +5,13 @@ from dotenv import load_dotenv
 from emojize import Emojize
 import random
 
+print()
+
 e = Emojize()
+
 load_dotenv()
-TOKEN = 'NDQxMzgwNTY5NjcxMjcwNDEw.WupJsA.UpdXgwaxCGgF7vSTPX64reZ7OXw'
+TOKEN = os.getenv("DISCORD_TOKEN")
+
 
 client = discord.Client()
 
