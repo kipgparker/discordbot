@@ -29,6 +29,6 @@ async def on_message(message):
         emoji = e.predict(message.content)
         if emoji != '':
             await message.add_reaction(emoji)
+            #await message.channel.send(emoji)
 
-print(TOKEN)
 client.run(TOKEN)
