@@ -1,7 +1,7 @@
 text-unidecode
 scikit-learn
 emoji
-pytorch
+torch
 numpy
 discord.py
 python-dotenv
