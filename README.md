@@ -10,6 +10,6 @@ Oh, also the code was only tested with Ubuntu 18.04 and i think macOS Sierra by 
 
 You will also need to add a file called **`.env`** with this inside:
 ```
-DISCORD_TOKEN='NDQxMzgwNTY5NjcxMjcwNDEw.WupJsA.ecD0NRcd4VC835XmCP865eTKbas'
+DISCORD_TOKEN='###########################################################'
 ```
 :)
